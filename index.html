@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+    <div id = "title">
+        <h1><span style="color:rgb(78, 78, 78)">Rock </span>
+        <span style="color:rgb(207, 205, 205)";>Paper </span>
+        <span style="color:red">Scissors</span></h1>
+    </div>
+
+    <div id = "choicesContainer">
+        <button class = "choicesBtn" onclick = 'play("rock")'>
+            <h1 class = "emojis">🪨</h1>
+            <h3 class = "txtUnderEmoji">Rock</h3>
+        </button>
+        <button class = "choicesBtn" onclick = 'play("paper")'>
+            <h1 class = "emojis">📄</h1>
+            <h3 class = "txtUnderEmoji">Paper</h3>
+        </button>
+        <button class = "choicesBtn" onclick = 'play("scissors")'>
+            <h1 class = "emojis">✂️</h1>
+            <h3 class = "txtUnderEmoji">Scissors</h3>
+        </button>
+    </div>
+    <br>
+    <label id = "playerMove"></label>
+    <label id = "comMove"></label>
+    <br><label id = "resultText">Pick a choice to begin!</label><br>
+
+    <div id = "statsContainer">
+        <label style = "color: green;">Wins: </label><label id = "winsC">0 (33%)</label><br>
+        <label style = "color: black;">Ties: </label><label id = "tiesC">0 (34%)</label><br>
+        <label style = "color: red;">Losses: </label><label id = "loseC">0 (33%)</label><br>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>

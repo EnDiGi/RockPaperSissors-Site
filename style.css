@@ -1,0 +1,32 @@
+body {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction:column;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 28px;
+}
+
+h1{
+	text-align: center
+}
+
+.choicesBtn{
+	border: 1px solid black;
+	border-radius: 13px;
+	background-color: white;
+	font-size: 30px;
+	width: 30vh;
+	height: 30vh;
+}
+
+#choicesContainer {
+	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#statsContainer {
+	text-align: center
+}
